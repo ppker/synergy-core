@@ -26,7 +26,6 @@ var NAVTREE =
 [
   [ "Deskflow", "index.html", [
     [ "Building Deskflow", "md_doc_2dev_2build.html", [
-      [ "More info", "index.html#autotoc_md8", null ],
       [ "Configuration", "md_doc_2dev_2build.html#autotoc_md1", [
         [ "Windows Configuration", "md_doc_2dev_2build.html#autotoc_md2", null ]
       ] ],
@@ -34,9 +33,55 @@ var NAVTREE =
       [ "Install", "md_doc_2dev_2build.html#autotoc_md4", null ],
       [ "Making Deskflow packages", "md_doc_2dev_2build.html#autotoc_md5", null ]
     ] ],
-    [ "Contributing to Deskflow", "md_doc_2dev_2contributing.html", [
-      [ "Read the Full Guidelines", "md_doc_2dev_2contributing.html#autotoc_md7", null ]
+    [ "Contributing to Deskflow", "contributing_guide.html", [
+      [ "Contributing to Deskflow", "contributing_guide.html#autotoc_md6", [
+        [ "Read the Full Guidelines", "contributing_guide.html#autotoc_md7", null ]
+      ] ]
     ] ],
+    [ "Protocol Reference", "md_doc_2dev_2protocol__reference.html", [
+      [ "Protocol Overview", "md_doc_2dev_2protocol__reference.html#autotoc_md11", [
+        [ "Key Implementation Files", "md_doc_2dev_2protocol__reference.html#autotoc_md12", null ]
+      ] ],
+      [ "Protocol Architecture", "md_doc_2dev_2protocol__reference.html#autotoc_md13", null ],
+      [ "Protocol State Machine", "md_doc_2dev_2protocol__reference.html#autotoc_md14", [
+        [ "State Descriptions", "md_doc_2dev_2protocol__reference.html#autotoc_md15", null ]
+      ] ],
+      [ "Message Categories", "md_doc_2dev_2protocol__reference.html#autotoc_md16", null ],
+      [ "Message Reference Table", "md_doc_2dev_2protocol__reference.html#autotoc_md17", null ],
+      [ "Typical Control Flow", "md_doc_2dev_2protocol__reference.html#autotoc_md18", null ],
+      [ "Protocol Constraints", "md_doc_2dev_2protocol__reference.html#autotoc_md19", [
+        [ "Message and Data Size Limits", "md_doc_2dev_2protocol__reference.html#autotoc_md20", null ],
+        [ "TLS Handshake and Security (Protocol v1.4+)", "md_doc_2dev_2protocol__reference.html#autotoc_md21", null ],
+        [ "Key Code and Modifier Mapping", "md_doc_2dev_2protocol__reference.html#autotoc_md22", null ]
+      ] ],
+      [ "Timing and Synchronization", "md_doc_2dev_2protocol__reference.html#autotoc_md23", [
+        [ "Keep-Alive Mechanism (Protocol v1.3+)", "md_doc_2dev_2protocol__reference.html#autotoc_md24", null ],
+        [ "Synchronization on Screen Entry", "md_doc_2dev_2protocol__reference.html#autotoc_md25", null ],
+        [ "Handshake Timeout", "md_doc_2dev_2protocol__reference.html#autotoc_md26", null ]
+      ] ],
+      [ "Version Compatibility", "md_doc_2dev_2protocol__reference.html#autotoc_md27", [
+        [ "Version Migration Guide", "md_doc_2dev_2protocol__reference.html#autotoc_md28", null ]
+      ] ],
+      [ "Implementation Examples", "md_doc_2dev_2protocol__reference.html#autotoc_md29", [
+        [ "Connection Lifecycle", "md_doc_2dev_2protocol__reference.html#autotoc_md30", null ],
+        [ "Message Handling", "md_doc_2dev_2protocol__reference.html#autotoc_md31", null ],
+        [ "Complete Message Exchange Sequence", "md_doc_2dev_2protocol__reference.html#autotoc_md32", null ]
+      ] ],
+      [ "Debugging and Troubleshooting", "md_doc_2dev_2protocol__reference.html#autotoc_md33", [
+        [ "Common Issues", "md_doc_2dev_2protocol__reference.html#autotoc_md34", null ],
+        [ "Debug Tools", "md_doc_2dev_2protocol__reference.html#autotoc_md35", null ]
+      ] ],
+      [ "Platform-Specific Implementations", "md_doc_2dev_2protocol__reference.html#autotoc_md36", null ],
+      [ "Implementation Checklist", "md_doc_2dev_2protocol__reference.html#autotoc_md37", [
+        [ "Basic Client Implementation", "md_doc_2dev_2protocol__reference.html#autotoc_md38", null ],
+        [ "Advanced Features", "md_doc_2dev_2protocol__reference.html#autotoc_md39", null ]
+      ] ],
+      [ "Reference Implementation", "md_doc_2dev_2protocol__reference.html#autotoc_md40", null ],
+      [ "Contributing", "md_doc_2dev_2protocol__reference.html#autotoc_md41", null ],
+      [ "Support and Resources", "md_doc_2dev_2protocol__reference.html#autotoc_md42", null ]
+    ] ],
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -79,28 +124,28 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AboutDialog_8cpp.html",
-"ELevel_8h.html#a7cd66fd9f1b78589fbb50b32467ce786a3b8ebff72cf1a2f992adf5da9077f0aa",
-"MSWindowsClipboardUTF16Converter_8h.html",
-"OSXScreen_8mm.html#a1e7b25f05d53afeb25723c48396770ca",
-"ServerMessage_8h_source.html",
-"classAction.html#a85fb294eb12d96369e42dc4c7f56f474",
-"classArchNetworkBSD.html#a6dc5e1d34668476fe6b17de3ebe82b56",
-"classClientProxy.html#a78f13e672750bd90ff024f6ab56e0c01",
-"classFingerprintDatabase.html#a96b14056d161c6b9edab1cfc6efded75",
-"classIKeyState.html#abca6d885cbb75924a9e8d36b5ba0a829",
-"classInputFilter_1_1RestartServer.html#a309df0a26376ea902b310e0f3e5f031d",
-"classMSWindowsKeyState.html#a8b57983005599168d2ddbd860af1254d",
-"classOSXScreen.html#aca30212ec71dcf62789e7c002857490d",
-"classScreenSetupModel.html#a6a5b61f67e1c21f61f677a76cfdf9fe1",
-"classSocketMultiplexer.html#a00220aae41a4db7ff779303b27bb27a3",
-"classXUnknownClient.html",
-"classdeskflow_1_1ArgsBase.html",
-"classdeskflow_1_1KeyMap.html#a11f2301e51624261a0d976081b979572",
-"classdeskflow_1_1gui_1_1CoreProcess.html#a0a6b6dc9aa924805e81b27fa9a437391",
-"classdeskflow_1_1server_1_1Config.html#a5d52e050759ad486da4e9f7ea650b51e",
-"deskflow-core_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",
-"namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2ad860e722ec731a74cbc81f3412ee56e9",
-"structdeskflow_1_1client_1_1HelloBack_1_1Deps.html#a2a8ef245067686204fe75a9ea95d9295"
+"ELevel_8h.html#a7cd66fd9f1b78589fbb50b32467ce786a42da32db32690cc55e7ebc3de0109ec3",
+"MSWindowsClipboardUTF16Converter_8h_source.html",
+"OSXScreen_8mm.html#a38cb7af89c29a152f0a820c8ce7217bb",
+"XArchWindows_8h.html#aa8bc1ba0d5344a265d4093aef962dcab",
+"classArch.html#a76bf3e02f31eee4c3b4318951d24e7c9",
+"classArgParser.html#aab594cdd4fffa9737f9edfc7ac3d18b8",
+"classClientProxy1__6.html#a731bfb89df06b5020d3494d9302677b8",
+"classIArchMultithread.html#af8b53fdd69b8c47e89492f3642f46ed3",
+"classIPrimaryScreen_1_1EiConnectInfo.html#a7f03b0a327422898d4465c423898d34a",
+"classLock.html",
+"classMutex.html#a593423d868daf926c7b0d63a833ae29a",
+"classPrimaryClient.html#a6496fd6b7b2d8eb8182d09cf8842208d",
+"classServerConfig.html#a03b3f88897a63eda3d7b2a0fc48a5fd5",
+"classTCPSocket.html#a8d512b5dce1a8678617aa86957227b8a",
+"classXWindowsClipboard_1_1CICCCMGetClipboard.html#ab32409e2affc458b21f0b136f901049b",
+"classdeskflow_1_1EiKeyState.html#a639b85fa5613ee84c56f838c15d133ab",
+"classdeskflow_1_1Screen.html#a2077502db30285ad3c26ce7128de22f8",
+"classdeskflow_1_1gui_1_1ServerConnection.html#a4485d9788a449269027f4e6bc3c67478",
+"classdeskflow_1_1server_1_1ConfigReadContext.html#adf2f12555adfee42ca1580b383b8527c",
+"functions_u.html",
+"namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2ac822031d3d3a99b4a94af0c3841feee8",
+"structdeskflow_1_1client_1_1HelloBack_1_1Deps.html#a0abd446ad8d12ee80b156801fcf9f0b8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
